@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PolyU Online Platform for Robotics & Control</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <link href="assets/css/button.css" rel="stylesheet">
+
+  
+
+  <!-- =======================================================
+  * Template Name: Logis - v1.0.1
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="https://www.polyu.edu.hk/" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/polyuLogo.png" alt="" class="img-fluid">
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#playgrounds">Playgrounds</a></li>
+          <li class="dropdown"><a href="#"><span>Tutorials</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Tutorial 1</a></li>
+              <li><a href="#">Tutorial 2</a></li>
+              <li><a href="#">Tutorial 3</a></li>
+              <li><a href="#">Tutorial 4</a></li>
+            </ul>
+          </li>
+          
+    
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      
+      <div class="row d-flex">
+        <div class="col-md-4 order-2 order-md-1 d-flex flex-column justify-content-evenly">
+          <div class=" d-flex">
+            <div class="col-6">
+              <img data-aos="fade-up" src="assets/img/PoPlogo.png"  alt="" class="img-fluid" style="padding-bottom: 1em;padding-top: 1em;">
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="col-12 d-flex ">
+              <h2 data-aos="fade-up" style="padding-bottom: 1em;"><strong style="color:red;">P</strong>olyU <strong style="color:red;">O</strong>nline <strong style="color:red;">P</strong>latform
+              for Robotics & Control</span></h2>
+            </div>
+          </div>
+
+          
+
+          <div class="d-flex">
+            <div class="col-12 d-flex">
+              <h5 data-aos="fade-up" style="color:white;padding-bottom: 1em;">An educational project supported by the Hong Kong Polytechnic University
+              </h5>
+            </div>
+          </div>
+          
+        </div>
+      
+        
+        <video autoplay loop muted class="col-md-8 order-1 order-md-2 justify-content-center" data-aos="zoom-out">
+          <source src="assets/img/robotArm.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  
+  <section id="playgrounds" class="d-flex align-items-center" style="background-color:rgba(0, 0, 0, 0.979)">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-aos="fade-up">Playgrounds</h2>
+      </div>
+
+      <!-- Projectile Motion -->
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-3 d-flex">
+          <div class="card bg-dark mb-3 text-center">
+            <img class="card-img-top" id="projectileImg" src="assets/img/projectile.gif">
+            <div class="card-body" style="background-color:rgb(0, 0, 0)">
+              <h5 class="card-title" style="color:white">Projectile Motion Revisit</h5>
+              <p class="card-text" style="color:white">Whet your appeetite for <strong style="color:red"> POP </strong> through a simple projectile motion simulation. Learn the navigation in the 3D scene and how to use our UI.</p>
+              <button class="card-text button-6" role="button" onclick="projectileLink()">Launch</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mass Spring Damper -->
+        <div class="col-md-3 d-flex">
+          <div class="card bg-dark mb-3 text-center">
+            <img class="card-img-top" id="springImg" src="assets/img/spring.gif">
+            <div class="card-body" style="background-color:rgb(0, 0, 0)">
+              <h5 class="card-title" style="color:white">Mass-Spring-Damper</h5>
+              <p class="card-text" style="color:white">The mass-spring-damper system is the best example for beginners in modeling and control. Tune the parameters of the <strong style="color:blue">PID controller</strong>. Let's see what will happen!</p>
+              <button class="card-text button-6" role="button" onclick="springLink()">Launch</button>
+            </div>
+          </div>
+        </div>
+
+  
+        <!-- cartPole -->
+        <div class="col-md-3 d-flex">
+          <div class="card bg-dark mb-3 text-center">
+            <img class="card-img-top" id="projectileImg" src="assets/img/cartpole.gif">
+            <div class="card-body" style="background-color:rgb(0, 0, 0)">
+              <h5 class="card-title" style="color:white">Underactuated Cartpole</h5>
+              <p class="card-text" style="color:white">How to balance a pendulum around its unstable equilibrium when the only control input is the force applied to the cart? Learn the essence of <strong style="color:rgb(123, 255, 0)">state feedback control</strong> with a simplified cartpole system</p>
+              <button class="card-text button-6" role="button" onclick="cartpoleLink()">Launch</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Robot arm -->
+        <div class="col-md-3 d-flex"> 
+          <div class="card bg-dark mb-3 text-center">
+            <img class="card-img-top" id="projectileImg" src="assets/img/robotCrop.gif">
+            <div class="card-body" style="background-color:rgb(0, 0, 0)">
+              <h5 class="card-title" style="color:white">Robotic Arm</h5>
+              <p class="card-text" style="color:white">A cross-platform 5-DOF robotic arm simulator to learn <strong style="color:rgb(255, 229, 80)">forward kinematics</strong> and motion planning. Customizing it with your favourite colors is also recommended!</p>
+              <button class="card-text button-6" role="button" onclick="robotLink()">Launch</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      
+      
+    </div>
+
+    
+    </div>
+
+  </section>
+
+
+
+
+
+  
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="./buttonJS.js"></script>
+</body>
+
+</html>

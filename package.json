@@ -1,0 +1,27 @@
+{
+  "name": "logis",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build ./index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinlibot7/polyuOnlinePlatform"
+  },
+  "keywords": [],
+  "author": "Luyin HU",
+  "license": "ISC",
+  "homepage": "https://jinlibot7.github.io/polyuOnlinePlatform/",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.12"
+  }
+}
