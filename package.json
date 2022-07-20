@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jinlibot7/polyuOnlinePlatform"
+    "url": "git+https://github.com/romi-lab/polyuOnlinePlatform"
   },
   "keywords": [],
   "author": "Luyin HU",
   "license": "ISC",
-  "homepage": "https://jinlibot7.github.io/polyuOnlinePlatform/",
+  "homepage": "https://romi-lab.github.io/polyuOnlinePlatform/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "gh-pages": "^4.0.0",
