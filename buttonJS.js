@@ -76,3 +76,9 @@ function onClick(element) {
     
     document.getElementById('cartpoleImg').src ="https://raw.githubusercontent.com/JinliBot7/PolyUVirtualLabPortfolio/main/src/images/cartpoleCover.png"
   }
+
+  // CatControl
+  function catControlLink() {
+    window.open("https://samanthalhy.github.io/catControl/")
+  }
+  
